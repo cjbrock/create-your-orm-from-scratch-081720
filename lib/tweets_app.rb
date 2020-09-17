@@ -10,7 +10,6 @@ class TweetsApp
         'username' => username,
         'message' => message
       })
-      tweet.save
       tweets = Tweet.all
       render(tweets)
     end
